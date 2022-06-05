@@ -1,0 +1,8 @@
+# vybez extension
+comment = 'vybez extension'
+default_version = '0.0.1'
+module_pathname = '$libdir/vybez'
+requires = 'plpgsql,uuid-ossp,citext,pgcrypto,btree_gist,postgis,hstore,db_meta,launchql-inflection,launchql-uuid,launchql-utils,launchql-ext-jobs,launchql-jwt-claims,launchql-stamps,launchql-base32,launchql-totp,launchql-ext-types,launchql-ext-default-roles'
+relocatable = false
+superuser = false
+  

@@ -1,0 +1,8 @@
+-- Revert: schemas/vybez_public/tables/publications/columns/is_private/column from pg
+
+BEGIN;
+
+
+ALTER TABLE "vybez_public".publications DROP COLUMN is_private;
+COMMIT;  
+
