@@ -1,0 +1,8 @@
+# vybez-svc-local extension
+comment = 'vybez-svc-local extension'
+default_version = '0.0.1'
+module_pathname = '$libdir/vybez-svc-local'
+requires = 'plpgsql,svc,vybez'
+relocatable = false
+superuser = false
+  

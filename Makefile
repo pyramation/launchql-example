@@ -11,4 +11,7 @@ ssh:
 install:
 	docker exec launchql-example-postgres /sql-bin/install.sh
 
+seed:
+	createdb vybez
+	lql deploy --recursive --database vybez --yes --project vybez-svc-local
   

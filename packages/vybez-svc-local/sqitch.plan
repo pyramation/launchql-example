@@ -1,0 +1,5 @@
+%syntax-version=1.0.0
+%project=vybez-svc-local
+%uri=vybez-svc-local
+  
+migrate 2022-06-05T03:25:09Z System Administrator <root@Ds-PyraPro> # migrate
